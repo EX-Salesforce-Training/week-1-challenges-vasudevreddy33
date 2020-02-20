@@ -1,0 +1,53 @@
+//Cedric Hurst
+//Vasudev Reddy
+
+public class ChallengeTwo 
+{
+
+    public void ForLoop()
+    {
+        List<integer> i = new List<integer>{1,2,3,4,5,6,7,8,9,10};
+        for(integer x = 0; x < 10; x++)
+        {
+            system.debug(i[x]);
+        }
+        
+        
+    }
+    public void WhileLoop()
+    {
+       integer i = 0;
+        
+        While(i!=10)
+        {
+            i++;
+        }
+        System.debug(i);
+    }
+    public void Iffy()
+    {
+        Boolean j = false;
+        Boolean m = true;
+        if(j == true)
+        {
+        System.debug('this is true');
+
+        }
+        else
+        {
+        	if(m == true)
+        	{
+                System.debug('this is different');
+
+        	}
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
