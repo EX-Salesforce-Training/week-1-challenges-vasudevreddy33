@@ -1,0 +1,17 @@
+//Vasudev Reddy
+//Cedric Hurst
+
+public class ChallengeThree {
+	Account b;
+    
+    public void SetAccount(){
+        b = new Account();
+        b.Name = 'Joey';
+        b.AnnualRevenue = 500000;
+        b.Description = 'Rich guy';
+    }
+    
+    public void GetAccount(){
+       system.debug(b); 
+    }
+}
